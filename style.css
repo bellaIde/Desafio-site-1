@@ -1,0 +1,109 @@
+body {
+    background: #2C2B3D;
+    margin: 0;
+}
+
+.pagina {
+    width: 1100px;
+    margin: 71px auto 0;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 101px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* removendo o sublinhado do link na nav */
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* quando o usuario passar o mouse em cima dio nav a fonte vai ficar em bold */
+ul li a:hover {
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 157px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #C2C2C2;
+    margin: 40px 0;
+    text-align: center;
+    
+    padding-bottom: 20px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+p span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 34px;
+    line-height: 56px;  
+    color: white; 
+    
+}
+
+h1 span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    border: 1px solid #00BFA6;
+    margin: 0 auto 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+#cadeado {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+}
+
